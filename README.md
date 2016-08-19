@@ -1,4 +1,4 @@
-# TeensyHackingDemo    
+# TeensyHackingDemo  
 Based on Kautilya which is the awesome toolkit for Teensy.    
 
 Combined function list:   
