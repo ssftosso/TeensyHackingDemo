@@ -14,4 +14,4 @@ Combined function list:
 4. Speak in every step.   
  
 REF:  
-  * https://github.com/samratashok/Kautilya   
+    * https://github.com/samratashok/Kautilya   
