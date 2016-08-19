@@ -1,7 +1,8 @@
 # TeensyHackingDemo  
 Based on Kautilya which is the awesome toolkit for Teensy.    
 
-Combined function list:   
+Combined function list:  
+
 1. Add new administrator   
     * username: teensyhack   
     * password: 1qaz@WSX  
